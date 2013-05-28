@@ -1,3 +1,5 @@
+#!/usr/bin/env perl
+
 use LWP::Simple;
 use Getopt::Long;
 use File::Spec;
@@ -35,3 +37,5 @@ while(1) {
 
 	$page++; # Onward!
 }
+
+print "... and done!";
